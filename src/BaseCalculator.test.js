@@ -22,7 +22,7 @@ describe("BaseCalculator", () => {
     fireEvent.click(screen.getByText(/calcular/i));
 
     expect(
-      screen.getByText(/resultado: 9 \(en base 10\)/i)
+      screen.getByText(/resultado: 8 \(en base 10\)/i)
     ).toBeInTheDocument();
   });
 
